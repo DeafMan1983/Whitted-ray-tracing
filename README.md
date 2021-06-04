@@ -33,15 +33,17 @@ of the object they would intersect. </p>
     <li>[Whitted ray tracing explanation](https://cglab.gist.ac.kr/courses/2017_spring_CG/2017_05_17_Whitted_Ray_Tracing.pdf)</li>
     <li>[Path tracing](http://www.kevinbeason.com/smallpt/)</li>
 </ol>
- 
-
+<div class="row">
+<div class="column">
 <img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/sky40.jpeg" alt="drawing" width="500" /><br>&nbsp;&nbsp;Output at 40 spp
- 
-
+</div>
+<div class="column">
 <img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/sky500.jpeg" alt="drawing" width="500"/><br>&nbsp;&nbsp;Output at 500 spp
- 
-
+</div>
+    </div>
+<div class="column1">
 <img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/explicit.jpg" alt="drawing" width="500" /><br><br>&nbsp;&nbsp;Output at 40 spp
-
-
+</div> 
+<div class="column1">
 <img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/explicit%20(1).jpg" alt="drawing" width="500" /><br><br>&nbsp;&nbsp;Output at 500 spp
+</div> 

@@ -21,6 +21,16 @@ The famous Phong illumination model was already known.
 <p>Whitted proposed to use known optical laws to compute the reflection and refraction direction of rays
 as they intersect reflective or transparent surfaces, and follow the path of these rays to find out the color
 of the object they would intersect. </p>
+<h2>Implementation</h2>
+<ul>
+    <li><p>Recursion: Each time a ray intersects a transparent surface, two new rays are generated (a reflection and a refraction ray).
+If these rays intersect another transparent object, each ray will generate two more rays. This is simulated through recursion.
+ to improve the efficiency of the algorithm, the maximum allowed depth of recursion is specified(maxdepth=5 in our code).</p></li>
+    <li><p>Backward Tracing: Whitted's algorithm uses backward tracing to simulate reflection and refraction.</p>
+<p>Let us consider three spheres P1, P2, and p3.
+If P1 generates a secondary ray that intersects P2 and that another secondary ray is generated at P2
+that intersects another object at P3, then the color at P3 becomes the color of P2 which in turn becomes the color of P1
+    (assuming P1 and P2 belong to mirror like surfaces)</p></li>
 <h2>Output and timing analysis</h2>
 <p>Given below is the different outputs we got. We have produced the output for different samples per pixel,
     and the time taken for rendering for each with an <b>Intel i7 processor</b></p>

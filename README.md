@@ -20,19 +20,12 @@ as they intersect reflective or transparent surfaces, and follow the path of the
 of the object they would intersect. </p>
 <h2>What did he propose?</h2>
 <h3>When a ray intersects an object, there are three possible cases</h3>
-<ol>
+<ul>
     <li>Case 1: if the surface at the intersection point is opaque and diffuse, we use Phong's Illumination Model
     to cast a ray in the direction of each light in the scene to find if the point is in shadow.</li>
     <li>Case 2: If the surface is a mirror like surface, we simply trace another reflection ray at the intersection point.</li>
     <li>Case 3: if the surface is a transparent surface, we then cast another reflection and a refraction ray at the intersection point.</li>
-</ol>
-<h2>References</h2>
-<ol>
-    <li>[An Improved Illumination Model for Shaded Display ](https://www.cs.drexel.edu/~david/Classes/Papers/p343-whitted.pdf)</li>
-    <li>[An Overview of the Ray-Tracing Rendering Technique](https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-overview/light-transport-ray-tracing-whitted)</li>
-    <li>[Whitted ray tracing explanation](https://cglab.gist.ac.kr/courses/2017_spring_CG/2017_05_17_Whitted_Ray_Tracing.pdf)</li>
-    <li>[Path tracing](http://www.kevinbeason.com/smallpt/)</li>
-</ol>
+</ul>
 
 <p float="left">
 <img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/sky40.jpeg" alt="drawing" width="350" />
@@ -44,3 +37,10 @@ of the object they would intersect. </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/explicit%20(1).jpg" alt="drawing" width="350" />
 </p>
+<h2>References</h2>
+<ol>
+    <li><a href="https://www.cs.drexel.edu/~david/Classes/Papers/p343-whitted.pdf">An Improved Illumination Model for Shaded Display</a></li>
+    <li><a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-overview/light-transport-ray-tracing-whitted">An Overview of the Ray-Tracing Rendering Technique</a></li>
+    <li><a href="https://cglab.gist.ac.kr/courses/2017_spring_CG/2017_05_17_Whitted_Ray_Tracing.pdf">Whitted ray tracing explanation</a></li>
+    <li><a href="http://www.kevinbeason.com/smallpt/">Path tracing</a></li>
+</ol>

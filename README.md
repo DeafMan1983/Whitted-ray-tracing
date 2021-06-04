@@ -35,12 +35,12 @@ of the object they would intersect. </p>
 </ol>
 
 <p float="left">
-<img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/sky40.jpeg" alt="drawing" width="400" />
+<img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/sky40.jpeg" alt="drawing" width="350" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/sky500.jpeg" alt="drawing" width="400"/>
+<img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/sky500.jpeg" alt="drawing" width="350"/>
 </p>
 <p float="left">
-<img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/explicit.jpg" alt="drawing" width="400" />
+<img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/explicit.jpg" alt="drawing" width="350" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/explicit%20(1).jpg" alt="drawing" width="400" />
+<img src="https://github.com/saloni-singh14/Whitted-ray-tracing/blob/main/doc_images/explicit%20(1).jpg" alt="drawing" width="350" />
 </p>

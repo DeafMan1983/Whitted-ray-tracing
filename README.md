@@ -4,7 +4,7 @@ We implemented Turner Whitted's 1980 research paper(https://www.cs.drexel.edu/~d
 # Updated adding some:
 - SDL3
 - Support texture rasterization
-- Support embeddedn color into texture
+- Support embedded color into texture
 - Save to bmp
 - Remove ppm because I worked on SDL3 :)
 

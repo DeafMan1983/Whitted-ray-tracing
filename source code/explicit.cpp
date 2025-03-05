@@ -343,8 +343,6 @@ int main(int argc, char *argv[])
     }
   }
 
-  // Create an SDL surface from the pixel data
-
   SDL_Window* window = SDL_CreateWindow("Ray Tracing", w, h, 0);
   SDL_Renderer* renderer = SDL_CreateRenderer(window, "software");
   SDL_Texture* texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_XRGB8888, SDL_TEXTUREACCESS_STREAMING, w, h);

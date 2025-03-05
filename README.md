@@ -1,6 +1,13 @@
 # Whitted-ray-tracing
 We implemented Turner Whitted's 1980 research paper(https://www.cs.drexel.edu/~david/Classes/Papers/p343-whitted.pdf) using C++
 
+# Updated adding some:
+- SDL3
+- Support texture rasterization
+- Support embeddedn color into texture
+- Save to bmp
+- Remove ppm because I worked on SDL3 :)
+
 <h2>Turner-Whitted Ray tracing - breakthrough</h2>
 
 <p>Before Whitted's paper,
